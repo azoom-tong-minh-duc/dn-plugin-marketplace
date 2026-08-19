@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "dn-plugin-marketplace",
+  "owner": {
+    "name": "Tong Minh Duc",
+    "email": "tong.minh.duc@azoom.jp"
+  },
+  "description": "Marketplace of Claude Code plugins.",
+  "plugins": [
+    {
+      "name": "dug-plan-task",
+      "source": "./plugins/dug-plan-task",
+      "description": "Plans work after reading a task, verifies the plan by scanning the codebase for affected but untouched areas, and designs the code architecture / implementation approach."
+    },
+    {
+      "name": "dug-write-test-case",
+      "source": "./plugins/dug-write-test-case",
+      "description": "Writes test cases, from a full breakdown down to a quick list of happy-path cases."
+    },
+    {
+      "name": "dug-review-code",
+      "source": "./plugins/dug-review-code",
+      "description": "Reviews code changes."
+    }
+  ]
+}
