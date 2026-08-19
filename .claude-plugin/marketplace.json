@@ -13,6 +13,11 @@
       "description": "Plans work after reading a task, verifies the plan by scanning the codebase for affected but untouched areas, and designs the code architecture / implementation approach."
     },
     {
+      "name": "dug-scan-code",
+      "source": "./plugins/dug-scan-code",
+      "description": "Scans a codebase across frontend, backend, and database layers to find areas affected by a task."
+    },
+    {
       "name": "dug-write-test-case",
       "source": "./plugins/dug-write-test-case",
       "description": "Writes test cases, from a full breakdown down to a quick list of happy-path cases."
